@@ -1,0 +1,107 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+ 
+    background-image: url('../Images/Ultra-processed-foods-photo.jpg');
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.loginBox {
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 1000px;
+    width: 350px;
+    box-sizing: border-box;
+    background: transperant;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.glass {
+    width: 103%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.loginBox:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+    background: rgba(255,255,255,1);
+}
+
+.glass:hover {
+    transform: translate(20px,20px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+
+.user {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #262626;
+    text-align-center;
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .loginBox input[type="text"],
+    .loginBox input[type="password"], .loginBox input[type="Email"] {
+        border: none;
+        border-bottom: 2px solid #262626;
+        outline: none;
+        height: 40px;
+        color: #262626;
+        background: transparent;
+        font-size: 16px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+::placeholder {
+    color: rgba(0,0,0,.5);
+}
+
+.inputBox {
+    position: relative;
+}
+
+    .inputBox span {
+        position: absolute;
+        top: -29px;
+        color: #262626;
+        left: 49px;
+        width: 244px;
+        height: 27px;
+    }
+
+.loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #ed292a;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.loginBox a {
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}

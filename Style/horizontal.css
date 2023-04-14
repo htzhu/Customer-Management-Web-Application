@@ -1,0 +1,32 @@
+﻿.horizontal-ull {
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left:100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 1000px;
+    padding-left: 200px;
+    overflow: hidden;
+    background-color: #F9C70C;
+    float: right;
+    font-size: larger;
+    width: 466px;
+}
+
+.horizontal-lii {
+    float: left;
+}
+
+.horizontala-active, .horizontala {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    .horizontala:hover {
+        background-color: #111;
+    }
